@@ -4,7 +4,7 @@ JuaanCafe
 
 ## Recommended IDE Setup
 
-[VSCode](https://code.visualstudio.com/) + [LiveServer](https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer) [TailwindCSSIntelliSense](https://marketplace.visualstudio.com/items?itemName=bradlc.vscode-tailwindcss).
+[VSCode](https://code.visualstudio.com/) + [LiveServer](https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer) + [TailwindCSSIntelliSense](https://marketplace.visualstudio.com/items?itemName=bradlc.vscode-tailwindcss).
 
 ## Project Setup
 
