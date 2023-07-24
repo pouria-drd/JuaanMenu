@@ -1,0 +1,80 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: "Bahij Nazanin";
+  src: url("./assets/fonts/BahijNazanin/Bahij-Nazanin.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "iransans";
+  src: url("./assets/fonts/Iransans/iransans.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "IRANYekanWeb";
+  src: url("./assets/fonts/IranYekan/IRANYekanWebRegular.ttf")
+    format("truetype");
+}
+
+@font-face {
+  font-family: "Peyda";
+  src: url("./assets/fonts/Peyda/01-Standard/TTF/Peyda-Regular.ttf")
+      format("truetype"),
+    url("./assets/fonts/Peyda/woff/PeydaWeb-Regular.woff") format("woff"),
+    url("./assets/fonts/Peyda/woff2/PeydaWeb-Regular.woff2") format("truetype");
+}
+
+@font-face {
+  font-family: "tanha";
+  src: url("./assets/fonts/Tanha/Tanha-FD-WOL.woff2") format("woff2"),
+    url("./assets/fonts/Tanha/Tanha-FD-WOL.woff") format("woff"),
+    url("./assets/fonts/Tanha/Tanha-FD-WOL.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "IRANYekanX";
+  font-style: normal;
+  font-weight: normal;
+  src: url("./assets/fonts/IRANYekanX/IRANYekanX-Regular.woff") format("woff"),
+    url("./assets/fonts/IRANYekanX/IRANYekanX-Regular.woff2") format("woff2");
+}
+
+@font-face {
+  font-family: "IRANYekanX";
+  font-style: normal;
+  font-weight: bold;
+  src: url("./assets/fonts/IRANYekanX/IRANYekanX-Bold.woff") format("woff"),
+    url("./assets/fonts/IRANYekanX/IRANYekanX-Bold.woff2") format("woff2");
+}
+
+@font-face {
+  font-family: "satisfy";
+  font-style: normal;
+  font-weight: normal;
+  src: url("./assets/fonts/Satisfy/Satisfy-Regular.ttf") format("truetype");
+}
+
+.ss02 {
+  -moz-font-feature-settings: "ss02";
+  -webkit-font-feature-settings: "ss02";
+  font-feature-settings: "ss02";
+}
+
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+  cursor: pointer;
+  background: #d9d9d9;
+}
+
+::-webkit-scrollbar-thumb:horizontal {
+  border-radius: 10px;
+  background: #8a735e;
+}
+
+::-webkit-scrollbar-thumb:vertical {
+  border-radius: 10px;
+  background: #8a735e;
+}
